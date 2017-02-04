@@ -7,24 +7,13 @@
     <title></title>
 
     <link rel="stylesheet" type="text/css" href="../css/markdown/foghorn.css">
-    <script type="text/javascript" src="../lib/jquery/jquery-3.1.1.min.js"></script>
-    <!--<script type="text/javascript" src="../lib/showdown/showdown.min.js"></script>-->
-    <!--<script type="text/javascript" src="../js/markdown/MarkdownConverter.js"></script>-->
-    <script src="../lib/require/require.js" data-main="../js/markdown/MarkdownConverter"></script>
+    <script src="../lib/require/require.js" data-main="index"></script>
 </head>
 
 <body>
+
 <div id="content"></div>
 
-<script type="text/javascript">
-    var file = "曹琪-20170109.md";
-
-    $(function () {
-        MarkdownConverter.convertHtml(file, function (html) {
-            $("#content").html(html);
-        })
-    });
-</script>
 </body>
 
 </html>
