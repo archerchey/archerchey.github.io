@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>曹琪-20170109</title>
-
-
-<style type="text/css">
 body {
   font-family: Helvetica, arial, sans-serif;
   font-size: 14px;
@@ -305,7 +295,7 @@ kbd {
 }
 
 * {
-	-webkit-print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
 }
 @media screen and (min-width: 914px) {
     body {
@@ -314,198 +304,10 @@ kbd {
     }
 }
 @media print {
-	table, pre {
-		page-break-inside: avoid;
-	}
-	pre {
-		word-wrap: break-word;
-	}
+  table, pre {
+    page-break-inside: avoid;
+  }
+  pre {
+    word-wrap: break-word;
+  }
 }
-</style>
-
-
-</head>
-
-<body>
-
-<ul>
-<li>姓名：曹琪</li>
-<li>性别：男</li>
-<li>手机：<strong>188-8896-9715</strong></li>
-<li>邮箱：<a href="mailto:archerchey@gmail.com">archerchey@gmail.com</a></li>
-<li>生日：1987年7月15日</li>
-<li>籍贯：杭州</li>
-<li>Github：<a href="https://github.com/archerchey"><strong>https://github.com/archerchey</strong></a></li>
-<li>CV：<a href="https://archerchey.github.io/cv.html"><strong>https://archerchey.github.io/cv.html</strong></a></li>
-</ul>
-
-<hr>
-
-<h1 id="toc_0">项目经历</h1>
-
-<h2 id="toc_1">酷帘B端（App &amp; H5）</h2>
-
-<ul>
-<li>简介：酷糖视觉线下销售客户端，用于管理商品、订单、收入等数据</li>
-<li>环境：AppCode／Xcode／WebStorm、cordova/ionic/AngularJS</li>
-<li>负责：底层框架搭建，业务模块开发，cordova原生插件开发，接口对接</li>
-</ul>
-
-<h2 id="toc_2">司珍房（App &amp; Api）</h2>
-
-<h5 id="toc_3">iOS端</h5>
-
-<ul>
-<li>简介：为三峡国际珠宝博艺园提供珠宝垂直产业链提供平台</li>
-<li>环境：AppCode／Xcode、Swift3、CocoaPods</li>
-<li>负责：底层框架设计、搭建，业务模块开发，接口对接</li>
-</ul>
-
-<h5 id="toc_4">api端</h5>
-
-<ul>
-<li>简介：为司珍房APP提供数据接口</li>
-<li>环境：Idea、Java、SSB、maven、mySql</li>
-<li>负责：框架搭建，接口编写，项目构建</li>
-</ul>
-
-<h2 id="toc_5">健康网、健康网药店版（App &amp; Api）</h2>
-
-<h5 id="toc_6">iOS端</h5>
-
-<ul>
-<li>简介：为山东葵源制药提供在线商城平台，及其线下门店运营及推广工具</li>
-<li>环境：AppCode／Xcode、OC、CocoaPods</li>
-<li>负责：底层框架设计、搭建，业务模块开发，接口对接，app发布，改版维护</li>
-</ul>
-
-<h5 id="toc_7">api端</h5>
-
-<ul>
-<li>简介：为健康网APP、健康网药店版APP提供数据接口</li>
-<li>环境：Idea、Java、SSB、maven、mySql</li>
-<li>负责：框架搭建，接口编写，项目发布</li>
-</ul>
-
-<h2 id="toc_8">药易方、药易方（Web &amp; 后台）</h2>
-
-<ul>
-<li>简介：田橙网络名下在线B2B商城</li>
-<li>环境：Idea、Java、HTML／CSS／JS、SSB、maven、mySql</li>
-<li>负责：业务模块开发</li>
-</ul>
-
-<h2 id="toc_9">小窝（App）</h2>
-
-<ul>
-<li>简介：为房产经纪人提供信息获取及交易平台</li>
-<li>环境：AppCode／Xcode、OC、CocoaPods</li>
-<li>负责：底层框架设计、搭建，业务模块开发，接口对接，app发布，改版维护</li>
-</ul>
-
-<h2 id="toc_10">找房吧、找房吧经纪人版（App）</h2>
-
-<ul>
-<li>简介：提供在线房源信息展示平台，以及经纪人销售、推广工具</li>
-<li>环境：AppCode／Xcode、OC、Swift1.0、CocoaPods</li>
-<li>负责：底层框架设计、搭建，业务模块开发，接口对接，app发布，改版维护</li>
-</ul>
-
-<h2 id="toc_11">享寓（App）</h2>
-
-<ul>
-<li>简介：提供空闲房源在线展示销售平台</li>
-<li>环境：AppCode／Xcode、OC、CocoaPods</li>
-<li>负责：底层框架设计、搭建，业务模块开发，接口对接，app发布，改版维护</li>
-</ul>
-
-<h2 id="toc_12">构家网社区（Web &amp; 后台）</h2>
-
-<ul>
-<li>简介：为家装行业商户、设计师及客户提供在线交流心得、经验、洽谈平台</li>
-<li>环境：Idea、Java、HTML／CSS／JS、SSB、maven、mySql、solr、redis</li>
-<li>负责：业务模块开发</li>
-</ul>
-
-<h2 id="toc_13">构家网（H5）</h2>
-
-<ul>
-<li>简介：用于为一站式整包家装概念推广</li>
-<li>环境：Idea、HTML5／CSS／JS、mySql</li>
-<li>负责：业务模块开发</li>
-</ul>
-
-<h2 id="toc_14">构家网商城（Web &amp; 后台）</h2>
-
-<ul>
-<li>简介：为有家装需求客户提供在线一站式整包家装产品商城</li>
-<li>环境：Idea、Java、HTML／CSS／JS、SSB、maven、mySql</li>
-<li>负责：业务模块开发</li>
-</ul>
-
-<hr>
-
-<p><img src="skill_20170109.png" alt="skill"></p>
-
-<hr>
-
-<h1 id="toc_15">工作经历</h1>
-
-<h2 id="toc_16">杭州田橙网络科技有限公司</h2>
-
-<ul>
-<li>时间：2016/3-2016/11</li>
-<li>岗位：无线事业组负责人／开发工程师</li>
-<li>描述：负责无线事业组日常事务管理，负责移动端开发工程师的招聘；负责项目管理、开发、发布，负责iOS架构设计、搭建与业务开发</li>
-</ul>
-
-<h2 id="toc_17">北京小窝科技有限公司</h2>
-
-<ul>
-<li>时间：2015/5-2016/3</li>
-<li>岗位：开发工程师</li>
-<li>描述：负责移动端开发工程师的招聘，负责项目管理、开发、发布，负责iOS架构设计、搭建与业务开发</li>
-</ul>
-
-<h2 id="toc_18">杭州构家网络科技有限公司</h2>
-
-<ul>
-<li>时间：2014/5-2015/4</li>
-<li>岗位：开发工程师</li>
-<li>描述：负责各项目开发、维护</li>
-</ul>
-
-<h2 id="toc_19">上海汽轮机厂有限公司</h2>
-
-<ul>
-<li>时间：2010/8-2014/4</li>
-<li>岗位：开发工程师</li>
-<li>描述：物料供应平台开发、维护</li>
-</ul>
-
-<hr>
-
-<h1 id="toc_20">教育经历</h1>
-
-<h2 id="toc_21">上海大学</h2>
-
-<ul>
-<li>时间：2006/9-2010/7</li>
-<li>专业：材料科学与工程学院 - 冶金工程</li>
-<li>发明专利：超声波作用对取向硅钢磁性能影响的研究</li>
-</ul>
-
-<h2 id="toc_22">杭州市第十四中学</h2>
-
-<ul>
-<li>时间：2003/9-2006/7</li>
-<li>特长：<strong>数学</strong></li>
-<li>信息学奥林匹克竞赛（2003-2006），编程生涯的开始</li>
-</ul>
-
-
-
-
-</body>
-
-</html>
