@@ -2,7 +2,7 @@
  * Created by archer on 2017/2/4.
  */
 
-var file = "曹琪-20170109.md";
+var file = "cv.md";
 
 require.config({
     paths: {

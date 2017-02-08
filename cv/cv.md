@@ -75,7 +75,8 @@
 
 ---
 
-![skill](skill_20170109.png)
+<!--![skill](skill_20170208.png)-->
+<img src="skill.png" style="height:720px;" />
 
 ---
 
