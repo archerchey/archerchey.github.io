@@ -37,21 +37,19 @@
 - 环境：AppCode/Xcode/WebStorm、cordova/ionic/AngularJS
 - 负责：底层框架搭建，业务模块开发，cordova原生插件开发，接口对接
 
-## 司珍房（iOS & API）
-### iOS
+## 司珍房（iOS）
 - 环境：AppCode/Xcode、Swift3、CocoaPods
 - 负责：底层框架设计、搭建，业务模块开发，接口对接
 
-### API
+## 司珍房（API）
 - 环境：Idea、Java、SSB、maven、mySql
 - 负责：框架搭建，接口编写，项目构建
 
-## 健康网、健康网药店版（iOS & API）
-### iOS
+## 健康网、健康网药店版（iOS）
 - 环境：AppCode/Xcode、OC、CocoaPods
 - 负责：底层框架设计、搭建，业务模块开发，接口对接，app发布，改版维护
 
-### API
+## 健康网、健康网药店版（API）
 - 环境：Idea、Java、SSB、maven、mySql
 - 负责：框架搭建，接口编写，项目发布
 
