@@ -12,7 +12,6 @@ require.config({
 
 require(['converter'], function (converter) {
 
-
     $(function () {
         converter.convertHtml(file, function (html) {
             $("#content").html(html);
