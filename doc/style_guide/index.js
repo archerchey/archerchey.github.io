@@ -3,16 +3,17 @@
  */
 
 require.config({
+    baseUrl: "../../",
     paths: {
-        "utils": "../js/url/Utils",
-        "converter": "../js/markdown/MarkdownConverter"
+        "urlUtil": "js/utils/UrlUtil",
+        "converter": "js/markdown/MarkdownConverter"
     }
 });
 
-require(['utils', 'converter'], function (utils, converter) {
+require(['urlUtil', 'converter'], function (urlUtil, converter) {
 
     $(function () {
-        var name = utils.getUrlParam("name");
+        var name = urlUtil.getUrlParam("name");
         var file = name + ".md";
 		converter.convertHtml(file, function (html) {
             $("#content").html(html);

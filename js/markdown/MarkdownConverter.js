@@ -3,10 +3,10 @@
  */
 
 require.config({
-    baseUrl: "../lib",
+    baseUrl: "../../",
     paths: {
-        "jquery": "jquery/jquery-3.1.1.min",
-        "showdown": "showdown/showdown.min"
+        "jquery": "lib/jquery/jquery-3.1.1.min",
+        "showdown": "lib/showdown/showdown.min"
     }
 });
 

@@ -1,0 +1,5 @@
+{
+  "site" : {
+    "blog": {"_type": "file", "_file": "blog.json"}
+  }
+}
