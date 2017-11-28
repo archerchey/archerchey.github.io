@@ -3,14 +3,14 @@
  */
 
 require.config({
-    baseUrl: "../../",
     paths: {
         "jquery": "lib/jquery/jquery-3.1.1.min",
-        "showdown": "lib/showdown/showdown.min"
+        "showdown": "lib/showdown/showdown.min",
+        "fileUtil": "js/utils/FileUtil"
     }
 });
 
-define(['jquery', 'showdown'], function ($, showdown) {
+define(['jquery', 'showdown', 'fileUtil'], function ($, showdown, fileUtil) {
 
     return {
         convertHtml: function (file, callback) {
@@ -23,13 +23,7 @@ define(['jquery', 'showdown'], function ($, showdown) {
                 }
             }
 
-            $.ajax({
-                async: true,
-                url: file,
-                success: function (result) {
-                    convert(result)
-                }
-            });
+            fileUtil.getContent(file, convert);
         }
     };
 

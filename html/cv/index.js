@@ -11,10 +11,12 @@ require.config({
 
 require(['converter'], function (converter) {
 
+    var dir = "../../docs/cv/";
     var file = "cv.md";
 
     $(function () {
-        converter.convertHtml(file, function (html) {
+        var path = dir + file;
+        converter.convertHtml(path, function (html) {
             $("#content").html(html);
         })
     });

@@ -1,7 +1,6 @@
 /**/
 
 require.config({
-    baseUrl: "../../",
     paths: {}
 });
 
